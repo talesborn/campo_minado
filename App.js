@@ -48,7 +48,7 @@ class App extends Component {
 
         if(lost){
             showMines(board);
-            Alert.alert('Perdeeeeeu!', 'Que buuuuurro');
+            Alert.alert('Perdeu!', 'Você Explodiu');
         }
 
         if(won){
